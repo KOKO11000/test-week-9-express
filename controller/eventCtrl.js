@@ -1,5 +1,4 @@
 import { jsonToArr, writeFile } from "../services/files.js";
-const PATH_USERS_DB = "./data/users.json"
 const PATH_EVENTS_DB = "./data/events.json"
 
 // POST
