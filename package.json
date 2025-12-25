@@ -1,0 +1,25 @@
+{
+  "name": "test_week_9_express",
+  "version": "1.0.0",
+  "description": "\"# test-week-9-express\" \r # Netanel Ozeri\r # 209088053\r # Galil\r # Link to render: https://test-week-9-express.onrender.com",
+  "homepage": "https://github.com/KOKO11000/test-week-9-express#readme",
+  "bugs": {
+    "url": "https://github.com/KOKO11000/test-week-9-express/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KOKO11000/test-week-9-express.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --watch app.js"
+  },
+  "keywords": [],
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
