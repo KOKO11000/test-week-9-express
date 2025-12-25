@@ -5,13 +5,12 @@ const PATH_EVENTS_DB = "./data/events.json"
 // POST
 export const addEventToData = async (req, res) => {
     try {
-        const { eventName, ticketsForSale, username, password } = req.body;
+        const { eventName, ticketsForSale, username } = req.body;
         const getAllEvents = await jsonToArr(PATH_EVENTS_DB);
         const newEvent = {
             eventName,
             ticketsForSale,
-            username,
-            password
+            createdBy : username
         };
         getAllEvents.push(newEvent);
         await writeFile(PATH_EVENTS_DB, getAllEvents);
