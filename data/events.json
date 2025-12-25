@@ -1,1 +1,8 @@
-[]
+[
+    {
+        "eventName": "park",
+        "ticketsForSale": 4,
+        "username": "Netanel",
+        "password": "1234"
+    }
+]
