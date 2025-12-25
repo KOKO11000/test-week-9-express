@@ -1,8 +1,1 @@
-[
-    {
-        "eventName": "park",
-        "ticketsForSale": 4,
-        "username": "Netanel",
-        "password": "1234"
-    }
-]
+[{"eventName":"park","ticketsForSale":4,"username":"Netanel","password":"1234"},{"eventName":"lona park","ticketsForSale":41,"username":"Netanel","password":"1234"},{"eventName":"lona park","ticketsForSale":1,"username":"Moshe","password":"2345"}]
