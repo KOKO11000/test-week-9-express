@@ -8,7 +8,7 @@ app.use(express.json())
 
 
 
-app.use("/user",router)
+app.use("/user", router)
 
 
 app.listen(port,()=>{
