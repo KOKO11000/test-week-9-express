@@ -9,7 +9,9 @@ app.use(express.json())
 
 
 
-
+app.get("/health",(req,res)=>{
+    return res.json({"ok": true})
+})
 app.use("/user", router)
 app.use("/users", routereceipt)
 app.use("/creator",routerEvent)
